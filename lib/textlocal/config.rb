@@ -16,7 +16,7 @@ module Textlocal
     def initialize
       @test = false
       @username = ENV['TEXTLOCAL_USER_NAME']
-      @api_hash     = ENV['TEXTLOCAL_API_HASH']
+      @api_hash = ENV['TEXTLOCAL_API_HASH']
     end
 
     def testing?

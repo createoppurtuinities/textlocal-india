@@ -33,7 +33,7 @@ module Textlocal
       if numbers.is_a?Array
         numbers.map!(&:to_s)
       else
-        numbers = numbers.split(',')
+        numbers = numbers.to_s.split(',')
       end
       numbers.each do |num|
         add_recipient(num)
