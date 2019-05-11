@@ -1,3 +1,5 @@
+# This Gem has not been updated and since the last update, the API signature for TextLocal has changed. Please fork andmaintain it yourself if you intend to use it
+https://github.com/sajan45/textlocal-india/issues/1
 # textlocal-india
 Unofficial Ruby wrapper for **textlocal.in** API.
 
